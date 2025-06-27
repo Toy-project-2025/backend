@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Pawcap - 로그인</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="login-container">
+    <div class="logo-section">
+        <div class="paw-icon">🐾</div>
+        <h1 class="title">Pawcap</h1>
+    </div>
+
+    <div class="login-buttons">
+        <button class="social-btn kakao">
+            <img src="/image/kakao-logo.png" alt="kakao" class="icon">카카오 계정으로 로그인
+        </button>
+
+        <button class="social-btn google">
+            <img src="/image/google-logo.png" alt="google" class="icon">구글 계정으로 로그인
+        </button>
+
+        <button class="social-btn naver">
+            <img src="/image/naver-logo.png" alt="naver" class="icon">네이버 계정으로 로그인
+        </button>
+    </div>
+
+    <div class="text-links">
+        <a href="/email-login">이메일로 로그인</a>
+        |
+        <a href="/sign-up">회원가입</a>
+    </div>
+</div>
+</body>
+</html>
